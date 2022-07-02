@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-content: space-between;
+}
+div {
+    text-align: center;
+    background-color: gray;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 150px;
+    transition: 800ms;
+}
+
+div:hover{
+    background-color: yellow;
+    filter:blur(0.7px);
+    border-radius: 20px;
+    transition: 500ms;
+    align-content: center;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+    font-family: 'Anek Latin', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #732634, #A64456);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #1d04099a;
+}
+
+h1{
+    color: #400812;
+    text-shadow: 1px 1px 2px rgb(107, 49, 49);
+}
+
+h2{
+    color: #A64456;
+}
+
+p{
+    text-align: justify;
+    color: black;
+}
